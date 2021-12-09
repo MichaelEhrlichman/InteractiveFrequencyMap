@@ -91,6 +91,8 @@ for i in range(len(flatmidx)):
 #
 class AnnoteFinder:
 	"""
+	From the scipy cookbook:
+	https://scipy-cookbook.readthedocs.io/items/Matplotlib_Interactive_Plotting.html
 	callback for matplotlib to display an annotation when points are clicked on.	The
 	point which is closest to the click and within xtol and ytol is identified.
 		
